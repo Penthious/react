@@ -1,4 +1,4 @@
-var elixir = require('laravel-elixir');
+const elixir = require('laravel-elixir');
 
 /*
  |--------------------------------------------------------------------------
@@ -10,7 +10,10 @@ var elixir = require('laravel-elixir');
  | file for our application, as well as publishing vendor resources.
  |
  */
+require('laravel-elixir-webpack');
 
-elixir(function(mix) {
-    mix.sass('app.scss');
+elixir((mix) => {
+    mix.webpack('./resources/assets/js/main.jsx',
+        require('./webpack.config.js'), './public/js/main.js');
 });
+
