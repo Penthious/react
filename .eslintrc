@@ -1,6 +1,9 @@
 {
   "plugins": [
-    "react"
+    "react",
+    "import",
+    "jsx-a11y",
+    "promise"
   ],
   "env": {
     "es6": true,
