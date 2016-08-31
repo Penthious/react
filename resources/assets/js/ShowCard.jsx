@@ -3,8 +3,8 @@ import React from 'react';
 const ShowCard = (props) => (
     <div className="show-card">
         <img
-          src={`./img/posters/${props.poster}`}
-          alt="show-card-img" className="show-card-img"
+            src={`./img/posters/${props.poster}`}
+            alt="show-card-img" className="show-card-img"
         />
         <div className="show-card-text">
             <h3 className="show-card-title">{props.title}</h3>

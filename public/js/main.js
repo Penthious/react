@@ -14240,8 +14240,10 @@ var Details = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'video-container' },
-                    _react2.default.createElement('iframe', { src: 'https://www.youtube-nocookie.com/embed/' + trailer + '?rel=0&amp;controls=0;showinfo=0',
-                        frameborder: '0', allowFullScreen: true })
+                    _react2.default.createElement('iframe', {
+                        src: 'https://www.youtube-nocookie.com/embed/' + trailer + '?rel=0&amp;controls=0;showinfo=0',
+                        frameBorder: '0', allowFullScreen: true
+                    })
                 )
             );
         }
@@ -27940,8 +27942,12 @@ var Header = function (_Component) {
         value: function render() {
             var utilSpace = void 0;
             if (this.props.showSearch) {
-                utilSpace = _react2.default.createElement('input', { className: 'search-input', placeholder: 'Search', type: 'text',
-                    value: this.props.searchTerm, onChange: this.handleSearchTermEvent });
+                utilSpace = _react2.default.createElement('input', {
+                    className: 'search-input',
+                    placeholder: 'Search', type: 'text',
+                    value: this.props.searchTerm,
+                    onChange: this.handleSearchTermEvent
+                });
             } else {
                 utilSpace = _react2.default.createElement(
                     'h2',
@@ -27975,7 +27981,7 @@ var Header = function (_Component) {
 
 Header.propTypes = {
     showSearch: bool,
-    hanadleSearchTermChange: func,
+    handleSearchTermChange: func,
     searchTerm: string
 };
 Header.defaultProps = {};

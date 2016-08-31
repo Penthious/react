@@ -1,5 +1,5 @@
-import React, {Component, PropTypes} from 'react';
-import {Link} from 'react-router';
+import React, { Component, PropTypes } from 'react';
+import { Link } from 'react-router';
 
 const { func, bool, string } = PropTypes;
 
@@ -11,8 +11,12 @@ class Header extends Component {
     render() {
         let utilSpace;
         if (this.props.showSearch) {
-            utilSpace = <input className="search-input" placeholder="Search" type="text"
-                               value={this.props.searchTerm} onChange={this.handleSearchTermEvent}/>
+            utilSpace = (<input
+                className="search-input"
+                placeholder="Search" type="text"
+                value={this.props.searchTerm}
+                onChange={this.handleSearchTermEvent}
+            />);
         } else {
             utilSpace = (
                 <h2 className="header-back">
@@ -20,12 +24,12 @@ class Header extends Component {
                         Back
                     </Link>
                 </h2>
-            )
+            );
         }
         return (
             <header className="header">
                 <h1 className="brand">
-                    <Link to='/' className="brand-link">
+                    <Link to="/" className="brand-link">
                         svideo
                     </Link>
                 </h1>
@@ -37,7 +41,7 @@ class Header extends Component {
 
 Header.propTypes = {
     showSearch: bool,
-    hanadleSearchTermChange: func,
+    handleSearchTermChange: func,
     searchTerm: string,
 };
 Header.defaultProps = {};
