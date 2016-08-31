@@ -10,10 +10,10 @@ const elixir = require('laravel-elixir');
  | file for our application, as well as publishing vendor resources.
  |
  */
-require('laravel-elixir-webpack');
-
-elixir((mix) => {
-    mix.webpack('./resources/assets/js/main.jsx',
-        require('./webpack.config.js'), './public/js/main.js');
-});
+// require('laravel-elixir-webpack');
+//
+// elixir((mix) => {
+//     mix.webpack('./resources/assets/js/main.jsx',
+//         require('./webpack.config.js'), './public/js/main.js');
+// });
 
