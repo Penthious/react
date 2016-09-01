@@ -6,7 +6,7 @@
     "cover": "nyc --reporter=lcov --reporter=text --reporter=html --require babel-register --extension .jsx npm test",
     "dev": "gulp watch",
     "build": "webpack --watch",
-    "lint": "eslint",
+    "lint": "eslint .",
     "validate": "npm ls"
   },
   "devDependencies": {
