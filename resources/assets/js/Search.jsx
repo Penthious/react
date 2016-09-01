@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { PropTypes, Component } from 'react';
 import ShowCard from './ShowCard';
 import Header from './Header';
 
-const { object } = React.PropTypes;
+const { object, func } = PropTypes;
 
-class Search extends React.Component {
+class Search extends Component {
+    static propTypes = {
+        route: func.IsRequired,
+    };
+
     constructor(props) {
         super(props);
         this.state = {
@@ -30,7 +34,7 @@ class Search extends React.Component {
                             .toUpperCase()
                             .indexOf(this.state.searchTerm.toUpperCase()) >= 0
                         ).map((show) => (
-                                <ShowCard {...show} key={show.imdbID} />
+                            <ShowCard {...show} key={show.imdbID} />
                             )
                         )}
                 </div>
@@ -40,8 +44,5 @@ class Search extends React.Component {
 
 }
 
-Search.propTypes = {
-    shows: object,
-};
 
 export default Search;

@@ -14374,10 +14374,11 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var object = _react2.default.PropTypes.object;
+var object = _react.PropTypes.object;
+var func = _react.PropTypes.func;
 
-var Search = function (_React$Component) {
-    _inherits(Search, _React$Component);
+var Search = function (_Component) {
+    _inherits(Search, _Component);
 
     function Search(props) {
         _classCallCheck(this, Search);
@@ -14421,12 +14422,11 @@ var Search = function (_React$Component) {
     }]);
 
     return Search;
-}(_react2.default.Component);
+}(_react.Component);
 
 Search.propTypes = {
-    shows: object
+    route: func.IsRequired
 };
-
 exports.default = Search;
 
 /***/ },
@@ -27978,6 +27978,13 @@ var Header = function (_Component) {
 
     return Header;
 }(_react.Component);
+
+//  Header.propTypes = {
+//    showSearch: bool,
+//    handleSearchTermChange: func,
+//    searchTerm: string,
+//  };
+
 
 Header.propTypes = {
     showSearch: bool,

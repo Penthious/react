@@ -22,7 +22,6 @@ const rootReducer = (state = initialState, action) => {
     }
 };
 
-
 export const store = createStore(rootReducer());
 const mapStateToProps = (state) => ({ searchTerm: state.searchTerm });
 const mapDispatchToProps = (dispatch) => {
