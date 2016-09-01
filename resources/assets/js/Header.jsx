@@ -4,6 +4,12 @@ import { Link } from 'react-router';
 const { func, bool, string } = PropTypes;
 
 class Header extends Component {
+    static propTypes = {
+        showSearch: bool,
+        handleSearchTermChange: func,
+        searchTerm: string,
+    };
+
     handleSearchTermEvent = (e) => {
         this.props.handleSearchTermChange(e.target.value);
     };
@@ -39,11 +45,11 @@ class Header extends Component {
     }
 }
 
-Header.propTypes = {
-    showSearch: bool,
-    handleSearchTermChange: func,
-    searchTerm: string,
-};
+//  Header.propTypes = {
+//    showSearch: bool,
+//    handleSearchTermChange: func,
+//    searchTerm: string,
+//  };
 Header.defaultProps = {};
 
 export default Header;
