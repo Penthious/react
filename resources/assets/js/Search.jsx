@@ -26,7 +26,7 @@ class Search extends Component {
                 <Header
                     showSearch
                     handleSearchTermChange={this.handleSearchTermChange}
-                    searchTerm={this.state.searchTerm}
+                searchTerm={this.state.searchTerm}
                 />
                 <div className="shows">
                     {this.props.route.shows
