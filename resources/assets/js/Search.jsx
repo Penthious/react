@@ -34,7 +34,7 @@ class Search extends Component {
                             .toUpperCase()
                             .indexOf(this.state.searchTerm.toUpperCase()) >= 0
                         ).map((show) => (
-                            <ShowCard {...show} key={show.imdbID} />
+                                <ShowCard {...show} key={show.imdbID} />
                             )
                         )}
                 </div>
