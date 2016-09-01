@@ -1,4 +1,7 @@
 {
+  "eslint": {
+    "ignorePath": ".eslintignore"
+  },
   "plugins": [
     "react",
     "import",
