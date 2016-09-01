@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91df9d40-46da-44b0-9b8c-406b9cb1683a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js.map" afterPath="$PROJECT_DIR$/public/js/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/Search.jsx" afterPath="$PROJECT_DIR$/resources/assets/js/Search.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/Store.jsx" afterPath="$PROJECT_DIR$/resources/assets/js/Store.jsx" />
     </list>
     <ignored path="react.dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +70,8 @@
       <file leaf-file-name="Search.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/Search.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1073">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="592">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -387,16 +383,16 @@
       <workItem from="1472480527946" duration="11000" />
       <workItem from="1472507993008" duration="20463000" />
       <workItem from="1472663704624" duration="534000" />
-      <workItem from="1472664286597" duration="14195000" />
+      <workItem from="1472664286597" duration="14399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85914000" />
+    <option name="totallyTimeSpent" value="86118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="27" width="2190" height="1337" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21187215" sideWeight="0.48992443" order="0" side_tool="false" content_ui="combo" />
@@ -407,7 +403,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.49829933" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38639876" sideWeight="0.66624147" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38639876" sideWeight="0.66624147" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21187215" sideWeight="0.51007557" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -790,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/Search.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="592">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
