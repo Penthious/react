@@ -70,7 +70,7 @@
       <file leaf-file-name="Search.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/Search.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
+            <state relative-caret-position="144">
               <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -383,12 +383,12 @@
       <workItem from="1472480527946" duration="11000" />
       <workItem from="1472507993008" duration="20463000" />
       <workItem from="1472663704624" duration="534000" />
-      <workItem from="1472664286597" duration="14399000" />
+      <workItem from="1472664286597" duration="14423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86118000" />
+    <option name="totallyTimeSpent" value="86142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="27" width="2190" height="1337" extended-state="0" />
@@ -786,7 +786,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/Search.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
+        <state relative-caret-position="144">
           <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
