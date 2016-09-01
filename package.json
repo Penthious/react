@@ -5,7 +5,9 @@
     "test": "mocha --require test/helpers/setup.js --compilers js:babel-core/register",
     "cover": "nyc --reporter=lcov --reporter=text --reporter=html --require babel-register --extension .jsx npm test",
     "dev": "gulp watch",
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "lint": "eslint",
+    "validate": "npm ls"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
@@ -32,6 +34,7 @@
     "laravel-elixir-webpack": "^1.0.1",
     "mocha": "^3.0.2",
     "nyc": "^8.1.0",
+    "precommit-hook-eslint": "^3.0.0",
     "react-addons-test-utils": "^15.3.1",
     "sinon": "^1.17.5",
     "webpack": "^2.1.0-beta.21"
@@ -55,5 +58,10 @@
     "react-redux": "^4.4.5",
     "react-router": "^2.7.0",
     "redux": "^3.5.2"
-  }
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ]
 }
