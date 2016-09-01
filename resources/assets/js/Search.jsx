@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from 'react';
 import ShowCard from './ShowCard';
 import Header from './Header';
 
-const { object, func } = PropTypes;
+const { func } = PropTypes;
 
 class Search extends Component {
     static propTypes = {
@@ -26,7 +26,7 @@ class Search extends Component {
                 <Header
                     showSearch
                     handleSearchTermChange={this.handleSearchTermChange}
-                searchTerm={this.state.searchTerm}
+                    searchTerm={this.state.searchTerm}
                 />
                 <div className="shows">
                     {this.props.route.shows
