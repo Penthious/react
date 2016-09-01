@@ -33,8 +33,10 @@ class Search extends Component {
                         .filter((show) => `${show.title} ${show.description}`
                             .toUpperCase()
                             .indexOf(this.state.searchTerm.toUpperCase()) >= 0
-                        ).map((show) => <ShowCard {...show} key={show.imdbID} />
-                        )}
+                        ).map(
+                            (show) => <ShowCard {...show} key={show.imdbID} />
+                        )
+                    }
                 </div>
             </div>
         );
