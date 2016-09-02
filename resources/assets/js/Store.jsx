@@ -22,13 +22,11 @@ const rootReducer = (state = initialState, action) => {
 };
 
 const mapStateToProps = (state) => ({ searchTerm: state.searchTerm });
-const mapDispatchToProps = function (dispatch) {
-    return {
-        setSearchTerm: (searchTerm) => {
-            dispatch({ type: SET_SEARCH_TERM, value: searchTerm });
-        },
-    };
-};
+const mapDispatchToProps = (dispatch) => ({
+    setSearchTerm: (searchTerm) => {
+        dispatch({ type: SET_SEARCH_TERM, value: searchTerm });
+    },
+});
 
 export const store = createStore(rootReducer);
 export const connector = connect(mapStateToProps, mapDispatchToProps);
