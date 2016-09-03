@@ -1,17 +1,18 @@
 import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
+import { connector } from './Store';
 
 const { func, bool, string } = PropTypes;
 
 class Header extends Component {
     static propTypes = {
         showSearch: bool,
-        handleSearchTermChange: func,
+        setSearchTerm: func,
         searchTerm: string,
     };
 
     handleSearchTermEvent = (e) => {
-        this.props.handleSearchTermChange(e.target.value);
+        this.props.setSearchTerm(e.target.value);
     };
 
     render() {
@@ -52,4 +53,4 @@ class Header extends Component {
 //  };
 Header.defaultProps = {};
 
-export default Header;
+export default connector(Header);
